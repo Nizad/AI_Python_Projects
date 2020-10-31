@@ -22,11 +22,7 @@ def chatbot():
 # chatbot()
 
 
-# import clr
-# # You can compile multiple python scripts into an assembly using clr.
-# # clr.CompileModules("modules.dll", "module.py", "module2.py")
-# clr.compile("NI_first_chatbot.dll", "NI_Chatbot.py")
 
-# To reference the compiled dll from another IronPython script, for example:
-# import clr
-# clr.AddReference("modules.dll")
+#  > python -m py_compile NI_Chatbot.py
+
+
